@@ -11,7 +11,7 @@ package ec.edu.espol.workshops.utils;
  * @author neoterux
  *
  */
-public class InvalidLicenseException extends RuntimeException {
+public class InvalidLicenseException extends InsuranceException {
 
 	private static final long serialVersionUID = -2134494298989871757L;
 	

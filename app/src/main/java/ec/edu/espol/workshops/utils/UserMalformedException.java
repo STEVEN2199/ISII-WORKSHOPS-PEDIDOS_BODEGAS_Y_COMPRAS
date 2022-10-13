@@ -9,7 +9,7 @@ package ec.edu.espol.workshops.utils;
  * @author neoterux
  *
  */
-public class UserMalformedException extends RuntimeException {
+public class UserMalformedException extends InsuranceException {
 
 	private static final long serialVersionUID = 1L;
 	
