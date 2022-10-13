@@ -1,0 +1,12 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+build/
+
+app/build
+
+*.out
+*.class
+
+# Ignore Gradle build output directory
+build
