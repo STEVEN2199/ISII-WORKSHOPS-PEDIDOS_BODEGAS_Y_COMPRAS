@@ -3,12 +3,28 @@ package ec.edu.espol.workshops.core.entities;
 import java.util.Scanner;
 import ec.edu.espol.workshops.utils.InsuranceException;
 
+/**
+ * <h1>CarInsurance</h1>
+ * 
+ * The class insurance class, this handle the creation and data validation
+ * for the customer that wants an insurance.
+ * 
+ * @author neoterux
+ *
+ */
 public class CarInsurance {
 
-	public CarInsurance() {
-	
-	}
+	/**
+	 * Create a new {@code CarInsurance} object
+	 */
+	public CarInsurance() {}
 
+	/**
+	 * this method process the given customer and validate 
+	 * the data.
+	 * 
+	 * @param customer The customer to create
+	 */
 	public static void processNewCustomer(Customer customer) {
 
 		Scanner sc = new Scanner(System.in);

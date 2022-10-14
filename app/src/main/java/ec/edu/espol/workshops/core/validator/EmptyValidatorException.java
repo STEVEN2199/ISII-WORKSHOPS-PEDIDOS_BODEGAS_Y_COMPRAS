@@ -11,6 +11,8 @@ package ec.edu.espol.workshops.core.validator;
  */
 public class EmptyValidatorException extends RuntimeException {
 	
+	private static final long serialVersionUID = 7063639323959499703L;
+
 	/**
 	 * Creates a new {@code EmptyValidationException} object that 
 	 * would throw the given message.

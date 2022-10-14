@@ -5,6 +5,12 @@ package ec.edu.espol.workshops;
 import ec.edu.espol.workshops.core.entities.Customer;
 import ec.edu.espol.workshops.core.entities.CarInsurance;
 
+/**
+ * The Start point of the insurance calculator.
+ * 
+ * @author neoterux
+ *
+ */
 public class App {
 
     public static void main(String[] args) {
