@@ -1,17 +1,14 @@
 package ec.edu.espol.workshops.core.entities;
 
+import java.util.Locale;
 import java.util.Scanner;
 import ec.edu.espol.workshops.utils.InsuranceException;
 
 public class CarInsurance {
 
-	public CarInsurance() {
-	
-	}
+	public static void processNewCustomer(final Customer customer) {
 
-	public static void processNewCustomer(Customer customer) {
-
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 
 		System.out.println("---Ingreso de información del cliente para cálculo de prima---");
 
@@ -21,8 +18,8 @@ public class CarInsurance {
 
 				System.out.println("Ingrese la edad del cliente: ");
 
-				customer.setEdad(sc.nextInt());
-				sc.nextLine();
+				customer.setEdad(scanner.nextInt());
+				scanner.nextLine();
 
 				if (customer.getEdad() < 1 || customer.getEdad() > 150) {
 					throw new InsuranceException("Edad invalida. Vuelva a intertarlo");
@@ -30,11 +27,12 @@ public class CarInsurance {
 
 				System.out.println("Está casado?(s/n) :");
 
-				String stringInput = sc.nextLine().toLowerCase();
+				String stringInput = scanner.nextLine().toLowerCase(Locale.ENGLISH);
 
-				if (stringInput.equals("s"))
+				if ("s".equals(stringInput)) {
 					customer.setMaritalStatus(true);
-				else if (stringInput.equals("n")) {
+				}
+				else if ("n".equals(stringInput)) {
 					customer.setMaritalStatus(false);
 				} else {
 					throw new InsuranceException(
@@ -43,9 +41,9 @@ public class CarInsurance {
 
 				System.out.println("Sexo del cliente, M  para hombre o F para mujer: ");
 
-				stringInput = sc.nextLine().toUpperCase();
+				stringInput = scanner.nextLine().toUpperCase();
 
-				if (!stringInput.equals("H") && !stringInput.equals("M")) {
+				if (!"H".equals(stringInput) && !"M".equals(stringInput)) {
 					throw new InsuranceException("Error en el ingreso del sexo del cliente. Vuelva a intentarlo");
 				}
 
@@ -53,11 +51,13 @@ public class CarInsurance {
 
 				System.out.println("Cliente tiene licencia de conducir valida?(s/n) :");
 
-				stringInput = sc.nextLine().toLowerCase();
+				stringInput = scanner.nextLine().toLowerCase(Locale.ENGLISH);
 
-				if (stringInput.equals("n") && stringInput.equals("s")) {
+				if ("n".equals(stringInput) || !"s".equals(stringInput)) {
 					throw new InsuranceException("Cliente no tiene licencia de conducir valida");
 				}
+				
+				
 
 				customer.setLicenceIsValid(true);
 
@@ -75,8 +75,9 @@ public class CarInsurance {
 				System.out.println("Error de dato: Vuelva a intentarlo");
 			}
 		}
-
-		sc.close();
+		
+		scanner.close();
+		
 	}
 
 }

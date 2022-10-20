@@ -1,0 +1,206 @@
+src/main/java/ec/edu/espol/workshops/App.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/ec/edu/espol/workshops/App.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/ec/edu/espol/workshops/App.java:8:	ShortClassName:	ShortClassName: Avoid short class names like App
+src/main/java/ec/edu/espol/workshops/App.java:8:	ShortClassName:	ShortClassName: Avoid short class names like App
+src/main/java/ec/edu/espol/workshops/App.java:8:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/ec/edu/espol/workshops/App.java:8:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/ec/edu/espol/workshops/App.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/App.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/App.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/App.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/App.java:12:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'customer' could be declared final
+src/main/java/ec/edu/espol/workshops/App.java:12:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'customer' could be declared final
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:7:	ModifiedCyclomaticComplexity:	ModifiedCyclomaticComplexity: The class 'CarInsurance' has a Modified Cyclomatic Complexity of 10 (Highest = 9).
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:7:	ModifiedCyclomaticComplexity:	ModifiedCyclomaticComplexity: The class 'CarInsurance' has a Modified Cyclomatic Complexity of 10 (Highest = 9).
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:7:	StdCyclomaticComplexity:	StdCyclomaticComplexity: The class 'CarInsurance' has a Standard Cyclomatic Complexity of 10 (Highest = 9).
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:7:	StdCyclomaticComplexity:	StdCyclomaticComplexity: The class 'CarInsurance' has a Standard Cyclomatic Complexity of 10 (Highest = 9).
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:7:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:7:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:9:	CognitiveComplexity:	CognitiveComplexity: The method 'processNewCustomer(Customer)' has a cognitive complexity of 18, current threshold is 15
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:9:	CognitiveComplexity:	CognitiveComplexity: The method 'processNewCustomer(Customer)' has a cognitive complexity of 18, current threshold is 15
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:9:	CyclomaticComplexity:	CyclomaticComplexity: The method 'processNewCustomer(Customer)' has a cyclomatic complexity of 16.
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:9:	CyclomaticComplexity:	CyclomaticComplexity: The method 'processNewCustomer(Customer)' has a cyclomatic complexity of 16.
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:11:	CloseResource:	CloseResource: Ensure that resources like this InputStream object are closed after use
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:11:	CloseResource:	CloseResource: Ensure that resources like this InputStream object are closed after use
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:11:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'scanner' could be declared final
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:11:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'scanner' could be declared final
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:13:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:13:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:19:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:19:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:28:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:28:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:30:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:30:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:42:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:42:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:44:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:44:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:44:	UseLocaleWithCaseConversions:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:44:	UseLocaleWithCaseConversions:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:50:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:50:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:52:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:52:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:54:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:54:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:56:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:56:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:64:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:64:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:71:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:71:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:73:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:73:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:75:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/CarInsurance.java:75:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:8:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:8:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:10:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:10:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:11:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:11:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:11:	LongVariable:	LongVariable: Avoid excessively long variable names like driverLicenceValid
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:11:	LongVariable:	LongVariable: Avoid excessively long variable names like driverLicenceValid
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:13:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:13:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:13:	UnnecessarySemicolon:	UnnecessarySemicolon: Unnecessary semicolon
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:13:	UnnecessarySemicolon:	UnnecessarySemicolon: Unnecessary semicolon
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:15:	LongVariable:	LongVariable: Avoid excessively long variable names like driverLicenceValid
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:15:	LongVariable:	LongVariable: Avoid excessively long variable names like driverLicenceValid
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'age' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'age' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'driverLicenceValid' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'driverLicenceValid' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'isMarried' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'isMarried' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'sex' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'sex' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:38:	BooleanGetMethodName:	BooleanGetMethodName: A getX() method which returns a boolean should be named isX()
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:38:	BooleanGetMethodName:	BooleanGetMethodName: A getX() method which returns a boolean should be named isX()
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:38:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:38:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:42:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:42:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:46:	BooleanGetMethodName:	BooleanGetMethodName: A getX() method which returns a boolean should be named isX()
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:46:	BooleanGetMethodName:	BooleanGetMethodName: A getX() method which returns a boolean should be named isX()
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:46:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:46:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:50:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:50:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:50:	LongVariable:	LongVariable: Avoid excessively long variable names like driverLicenceValid
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:50:	LongVariable:	LongVariable: Avoid excessively long variable names like driverLicenceValid
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:55:	AvoidUncheckedExceptionsInSignatures:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:55:	AvoidUncheckedExceptionsInSignatures:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:57:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premiumCost' (lines '57'-'60').
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:57:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premiumCost' (lines '57'-'60').
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:57:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premiumCost' (lines '57'-'63').
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:57:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premiumCost' (lines '57'-'63').
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:57:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premiumCost' (lines '57'-'66').
+src/main/java/ec/edu/espol/workshops/core/entities/Customer.java:57:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premiumCost' (lines '57'-'66').
+src/main/java/ec/edu/espol/workshops/core/insurance/InsuranceApplier.java:17:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'final' on field 'BASE_VALUE': the field is declared in an interface type
+src/main/java/ec/edu/espol/workshops/core/insurance/InsuranceApplier.java:17:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'final' on field 'BASE_VALUE': the field is declared in an interface type
+src/main/java/ec/edu/espol/workshops/core/insurance/InsuranceApplier.java:25:	AvoidUncheckedExceptionsInSignatures:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/ec/edu/espol/workshops/core/insurance/InsuranceApplier.java:25:	AvoidUncheckedExceptionsInSignatures:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/ec/edu/espol/workshops/core/validator/EmptyValidatorException.java:12:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/ec/edu/espol/workshops/core/validator/EmptyValidatorException.java:12:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/ec/edu/espol/workshops/core/validator/EmptyValidatorException.java:20:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/validator/EmptyValidatorException.java:20:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/validator/EmptyValidatorException.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cause' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/validator/EmptyValidatorException.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cause' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/validator/EmptyValidatorException.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/validator/EmptyValidatorException.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:10:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:10:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:20:	MissingStaticMethodInNonInstantiatableClass:	MissingStaticMethodInNonInstantiatableClass: Class cannot be instantiated and does not provide any static methods or fields
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:20:	MissingStaticMethodInNonInstantiatableClass:	MissingStaticMethodInNonInstantiatableClass: Class cannot be instantiated and does not provide any static methods or fields
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:22:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:22:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:22:	ImmutableField:	ImmutableField: Private field 'validationRules' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:22:	ImmutableField:	ImmutableField: Private field 'validationRules' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:32:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:32:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:32:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rule' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:32:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rule' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:38:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:38:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:38:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rule' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:38:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rule' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:52:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:52:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:61:	AvoidUncheckedExceptionsInSignatures:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:61:	AvoidUncheckedExceptionsInSignatures:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'target' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'target' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:62:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:62:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:62:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/ec/edu/espol/workshops/core/validator/ValidatorBundle.java:62:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/ec/edu/espol/workshops/utils/InsuranceException.java:10:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/ec/edu/espol/workshops/utils/InsuranceException.java:10:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/ec/edu/espol/workshops/utils/InsuranceException.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/utils/InsuranceException.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/utils/InsuranceException.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/InsuranceException.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/InsuranceException.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/utils/InsuranceException.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/utils/InsuranceException.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cause' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/InsuranceException.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cause' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/InsuranceException.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/InsuranceException.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/InvalidLicenseException.java:3:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/main/java/ec/edu/espol/workshops/utils/InvalidLicenseException.java:3:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/main/java/ec/edu/espol/workshops/utils/InvalidLicenseException.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/InvalidLicenseException.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/InvalidLicenseException.java:36:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cause' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/InvalidLicenseException.java:36:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cause' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/InvalidLicenseException.java:36:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/InvalidLicenseException.java:36:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/UserMalformedException.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/UserMalformedException.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/UserMalformedException.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/UserMalformedException.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/UserMalformedException.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'throwable' is not assigned and could be declared final
+src/main/java/ec/edu/espol/workshops/utils/UserMalformedException.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'throwable' is not assigned and could be declared final
+src/test/java/ec/edu/espol/workshops/AppTest.java:7:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.junit.jupiter.api.Assertions.*'
+src/test/java/ec/edu/espol/workshops/AppTest.java:7:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.junit.jupiter.api.Assertions.*'
+src/test/java/ec/edu/espol/workshops/AppTest.java:7:	UnusedImports:	UnusedImports: Unused import 'org.junit.jupiter.api.Assertions.*'
+src/test/java/ec/edu/espol/workshops/AppTest.java:7:	UnusedImports:	UnusedImports: Unused import 'org.junit.jupiter.api.Assertions.*'
+src/test/java/ec/edu/espol/workshops/AppTest.java:9:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/ec/edu/espol/workshops/AppTest.java:9:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/ec/edu/espol/workshops/AppTest.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/ec/edu/espol/workshops/AppTest.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/ec/edu/espol/workshops/AppTest.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/ec/edu/espol/workshops/AppTest.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/ec/edu/espol/workshops/AppTest.java:11:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'classUnderTest' (lines '11'-'12').
+src/test/java/ec/edu/espol/workshops/AppTest.java:11:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'classUnderTest' (lines '11'-'12').
+src/test/java/ec/edu/espol/workshops/AppTest.java:11:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'classUnderTest' could be declared final
+src/test/java/ec/edu/espol/workshops/AppTest.java:11:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'classUnderTest' could be declared final
+src/test/java/ec/edu/espol/workshops/AppTest.java:11:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'classUnderTest'.
+src/test/java/ec/edu/espol/workshops/AppTest.java:11:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'classUnderTest'.

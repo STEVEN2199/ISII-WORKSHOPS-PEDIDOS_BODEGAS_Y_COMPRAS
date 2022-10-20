@@ -8,30 +8,30 @@ public class Customer implements InsuranceApplier{
 	private int age ;
 	private char sex;
 	private boolean isMarried;
-	private boolean driverLicenceIsValid;
+	private boolean driverLicenceValid;
 	
 	public Customer(){};
 	
-	public Customer(int age, char sex, boolean isMarried, boolean driverLicenceIsValid  ) {
-		age = this.age;
-		sex = this.sex;
-		isMarried = this.isMarried;
-		driverLicenceIsValid = this.driverLicenceIsValid;
+	public Customer(int age, char sex, boolean isMarried, boolean driverLicenceValid  ) {
+		this.age = age;
+		this.sex = sex;
+		this.isMarried = isMarried;
+		this.driverLicenceValid =driverLicenceValid ;
 	}
 
 	    public int getEdad() {
 	        return age;
 	    }
 
-	    public void setEdad(int age) {
+	    public void setEdad(final int age) {
 	        this.age = age;
 	    }
 
-	    public char getSex(char sex) {
+	    public char getSex(final char sex) {
 	        return sex;
 	    }
 
-	    public void setSex(char sex) {
+	    public void setSex(final char sex) {
 	        this.sex = sex;
 	    }
 
@@ -39,16 +39,16 @@ public class Customer implements InsuranceApplier{
 	        return isMarried;
 	    }
 
-	    public void setMaritalStatus(boolean isMarried) {
+	    public void setMaritalStatus(final boolean isMarried) {
 	        this. isMarried = isMarried;
 	    }
 
-	    public boolean LicenceIsValid() {
-	        return driverLicenceIsValid;
+	    public boolean getLicenceIsValid() {
+	        return driverLicenceValid;
 	    }
 
-	    public void setLicenceIsValid(boolean driverLicenceIsValid) {
-	        this.driverLicenceIsValid = driverLicenceIsValid;
+	    public void setLicenceIsValid(final boolean driverLicenceValid) {
+	        this.driverLicenceValid = driverLicenceValid;
 	    }
 
 	@Override
