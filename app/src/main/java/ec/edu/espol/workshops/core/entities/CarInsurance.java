@@ -4,6 +4,15 @@ import java.util.Locale;
 import java.util.Scanner;
 import ec.edu.espol.workshops.utils.InsuranceException;
 
+/**
+ * <h1>CarInsurance</h1>
+ * 
+ * The class insurance class, this handle the creation and data validation
+ * for the customer that wants an insurance.
+ * 
+ * @author neoterux
+ *
+ */
 public class CarInsurance {
 
 	public static void processNewCustomer(final Customer customer) {
