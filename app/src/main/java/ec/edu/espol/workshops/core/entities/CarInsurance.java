@@ -1,6 +1,7 @@
 package ec.edu.espol.workshops.core.entities;
 
 import ec.edu.espol.workshops.utils.InsuranceException;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -20,11 +21,13 @@ public class CarInsurance {
   /**
    * function that process a {@code Customer}.
    *
-   * @param customer The custommer to process
+   * @param customer The customer to process
    */
   public static void processNewCustomer(final Customer customer) {
 
     final var scanner = new Scanner(System.in);
+
+    // scanner.getBytes(Charset.forName("UTF-8"));
 
     System.out.println("---Ingreso de información del cliente para cálculo de prima---");
 
@@ -56,7 +59,8 @@ public class CarInsurance {
 
         System.out.println("Sexo del cliente, M  para hombre o F para mujer: ");
 
-        stringInput = scanner.nextLine().toUpperCase();
+        stringInput = scanner.nextLine().toUpperCase(Locale.getDefault());
+        // stringInput.toUpperCase(Locale.ENGLISH);
 
         if (!"H".equals(stringInput) && !"M".equals(stringInput)) {
           throw new InsuranceException(

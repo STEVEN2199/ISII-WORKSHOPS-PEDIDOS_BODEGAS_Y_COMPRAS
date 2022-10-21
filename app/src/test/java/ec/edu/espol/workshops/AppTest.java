@@ -4,8 +4,8 @@ package ec.edu.espol.workshops;
 import org.junit.jupiter.api.Test;
 
 class AppTest {
-  @Test
+  @SuppressWarnings("unused") @Test
   void appHasGreeting() {
-    App classUnderTest = new App();
+    final App classUnderTest;
   }
 }
