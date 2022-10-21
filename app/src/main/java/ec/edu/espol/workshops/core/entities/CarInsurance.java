@@ -56,7 +56,6 @@ public class CarInsurance {
           throw new InsuranceException(
               "Error en el ingreso del estado civil del cliente. Vuelva a intentarlo");
         }
-
         System.out.println("Sexo del cliente, M  para hombre o F para mujer: ");
 
         stringInput = scanner.nextLine().toUpperCase(Locale.getDefault());
