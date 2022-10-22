@@ -3,6 +3,7 @@
 	<name>ISII-WORKSHOPS-PEDIDOS_BODEGAS_Y_COMPRAS</name>
 	<comment>Project ISII-WORKSHOPS-PEDIDOS_BODEGAS_Y_COMPRAS created by Buildship.</comment>
 	<projects>
+		<project>app</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
