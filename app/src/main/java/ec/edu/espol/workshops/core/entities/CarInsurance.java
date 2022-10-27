@@ -40,8 +40,11 @@ public class CarInsurance {
         customer.setEdad(scanner.nextInt());
         scanner.nextLine();
 
-        if (customer.getEdad() < 1 || customer.getEdad() > 150) {
-          throw new InsuranceException("Edad invalida. Vuelva a intertarlo");
+        if (customer.getEdad() < 18) {
+          throw new InsuranceException("No puede contratar seguro: Menor de edad");
+        }
+        if (customer.getEdad() >= 80) {
+          throw new InsuranceException("No puede contratar seguro:Edad Avanzada");
         }
 
         System.out.println("Está casado?(s/n) :");
@@ -59,13 +62,11 @@ public class CarInsurance {
         System.out.println("Sexo del cliente, M  para hombre o F para mujer: ");
 
         stringInput = scanner.nextLine().toUpperCase(Locale.getDefault());
-        // stringInput.toUpperCase(Locale.ENGLISH);
 
-        if (!"H".equals(stringInput) && !"M".equals(stringInput)) {
+        if (!"M".equals(stringInput) && !"F".equals(stringInput)) {
           throw new InsuranceException(
-              "Error en el ingreso del sexo del cliente. Vuelva a intentarlo");
+              "Error en el ingreso del estado civil del cliente. Vuelva a intentarlo");
         }
-
         customer.setSex(stringInput.charAt(0));
 
         System.out.println("Cliente tiene licencia de conducir valida?(s/n) :");
