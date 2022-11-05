@@ -37,3 +37,22 @@ tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+/**
+ * Cucumber runtime configuration
+ */
+configurations {
+    cucumberRuntime {
+        extendsFrom testImplementation
+    }
+}
+task cucumber() {
+    dependsOn assemble,testClasses
+    doLast {
+        javaexec {
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output +
+                    sourceSets.test.output
+            args = ["--plugin", "pretty", "--monochrome", "--plugin", "html:build/reports/cucumber-report.html", "--glue", "ec/edu/espol/workhops", "src/test/resources/ec/edu/espol/workhops/"]
+        }
+    }
+}
