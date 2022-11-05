@@ -52,7 +52,7 @@ task cucumber() {
             main = "io.cucumber.core.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output +
                     sourceSets.test.output
-            args = ["--plugin", "pretty", "--monochrome", "--plugin", "html:build/reports/cucumber-report.html", "--glue", "ec/edu/espol/workhops", "src/test/resources/ec/edu/espol/workhops/"]
+            args = ["--plugin", "pretty", "--monochrome", "--plugin", "html:build/reports/cucumber-report.html", "--glue", "ec/edu/espol/workshops", "src/test/resources/ec/edu/espol/workshops/"]
         }
     }
 }
