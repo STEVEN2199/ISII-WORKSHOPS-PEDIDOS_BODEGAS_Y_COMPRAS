@@ -1,43 +1,100 @@
-#Author: your.email@your.domain.com
-#Keywords Summary :
-#Feature: List of scenarios.
-#Scenario: Business rule through list of steps with arguments.
-#Given: Some precondition step
-#When: Some key actions
-#Then: To observe outcomes or validation
-#And,But: To enumerate more Given,When,Then steps
-#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
-#Examples: Container for s table
-#Background: List of steps run before each of the scenarios
-#""" (Doc Strings)
-#| (Data Tables)
-#@ (Tags/Labels):To group Scenarios
-#<> (placeholder)
-#""
-## (Comments)
-#Sample Feature Definition Template
-@tag
-Feature: Title of your feature
-  #I want to use this template for my feature file
-  Calculate the insurance prime for a customer
-  
+Feature: Calculation of the Premium cost
 
-  @tag1
-  Scenario: The customer is an underage
-    Given the client buys an insurance premium
-    And is underage
-    When calculate the insurance premium
-    Then you cannot take out insurance: Minor of age
+  Scenario: Calculating the insurance for a male underage citizen
+    Given An underage Citizen
+    And it's gender is "male"
+    # The license cannot be valid or invalid is indistinct
+    When wants to know the cost
+    Then It should be -1
 
-  @tag2
-  Scenario Outline: Title of your scenario outline
-    Given the customer calculates insurance prime con <age>
-    When the system validate the other information <sex> <isMarried> <driverLicenceValid>
-    Then the system calculate the insurance prime
+  Scenario: An old man/woman couldn't buy an insurance
+    Given An old citizen >=80 y.o
+    When wants to know the cost
+    Then It should be -1
 
-    Examples: 
-      | age  | sex | isMarried  | driverLicenceValid  |
-      | 4  | M | yes  | yes  |
-      | 25  | F | no  | yes  |
-      | 92  | M | yes  | yes  |
-      
+ Scenario Outline: Calculating the insurance for a male citizen with valid license
+    Given A citizen of age <age>
+    And it's gender is "male"
+    And has valid license
+    And his marital status is <marital_status>
+    When wants to know the cost
+    Then It should be <cost>
+   Examples:
+     | age | cost |  marital_status  |
+     | 18  |  300 | "married"        |
+     | 18  | 2000 | "single"         |
+     | 24  | 2000 | "single"         |
+     | 24  |  300 | "married"        |
+     | 25  |  300 | "married"        |
+     | 25  |  500 | "single"         |
+
+   Scenario Outline: Calculating the insurance for a citizen with invalid license
+     Given A citizen of age <age>
+     And has invalid license
+     When wants to know the cost
+     Then It should be -1
+     Examples:
+     | age |
+     | 17  |
+     | 18  |
+     | 25  |
+     | 45  |
+     | 65  |
+
+ Scenario Outline: A male citizen wants to buy the insurance
+   Given A citizen of age <age>
+   And has valid license
+   And it's gender is "male"
+   And his marital status is <marital_status>
+   When wants to know the cost
+   Then It should be <cost>
+   Examples:
+     | age | marital_status | cost |
+     | 17  | "single"       | 2000 |
+     | 17  | "married"      |  300 |
+     | 24  | "single"       | 2000 |
+     | 24  | "married"      |  300 |
+     | 25  | "single"       |  500 |
+     | 25  | "married"      |  300 |
+     | 44  | "single"       |  500 |
+     | 44  | "married"      |  300 |
+     | 45  | "single"       |  400 |
+     | 45  | "married"      |  200 |
+     | 64  | "single"       |  400 |
+     | 64  | "single"       |  200 |
+     | 65  | "single"       |  500 |
+     | 65  | "married"      |  300 |
+     | 80  | "single"       |   -1 |
+     | 80  | "married"      |   -1 |
+
+
+
+  Scenario Outline: A woman citizen wants to buy the insurance
+       Given A citizen of age <age>
+       And has valid license
+       And it's gender is "female"
+       And his marital status is <marital_status>
+       When wants to know the cost
+       Then It should be <cost>
+       Examples:
+         | age |  marital_status  | cost |
+         | 17  | "single"         | -1   |
+         | 18  | "single"         | 300  |
+         | 18  | "married"        | 300  |
+         | 25  | "single"         | 300  |
+         | 25  | "married"        | 300  |
+         | 44  | "single"         | 300  |
+         | 44  | "married"        | 300  |
+         | 45  | "single"         | 200  |
+         | 45  | "married"        | 200  |
+         | 64  | "single"         | 200  |
+         | 64  | "married"        | 200  |
+         | 65  | "single"         | 300  |
+         | 65  | "married"        | 300  |
+         | 66  | "single"         | 300  |
+         | 66  | "married"        | 300  |
+         | 80  | "single"         | -1   |
+
+
+
+
