@@ -3,7 +3,7 @@ package ec.edu.espol.workshops.core.insurance;
 import ec.edu.espol.workshops.utils.InsuranceException;
 
 /**
- * This interface represents an a capable entity to apply at an insurance.
+ * This interface represents a capable entity to apply at an insurance.
  *
  * @author neoterux
  *
