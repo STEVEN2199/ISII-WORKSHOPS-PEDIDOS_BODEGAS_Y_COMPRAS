@@ -13,7 +13,7 @@ public interface InsuranceApplier {
   /**
    * The base value of an insurance value.
    */
-  final int BASE_VALUE = 600;
+  final int BASE_VALUE = 500;
 
   /**
    * Calculates the value of the insurance.
