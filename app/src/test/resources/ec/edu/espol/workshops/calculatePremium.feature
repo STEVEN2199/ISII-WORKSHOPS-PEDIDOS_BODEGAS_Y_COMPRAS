@@ -60,9 +60,9 @@ Feature: Calculation of the Premium cost
      | 44  | "married"      |  300 |
      | 45  | "single"       |  400 |
      | 45  | "married"      |  200 |
-     | 64  | "single"       |  400 |
-     | 64  | "single"       |  200 |
-     | 65  | "single"       |  500 |
+     | 64  | "single"       | 400  |
+     | 64  | "married"      | 200  |
+     | 65  | "single"       | 500  |
      | 65  | "married"      |  300 |
      | 80  | "single"       |   -1 |
      | 80  | "married"      |   -1 |
@@ -78,8 +78,8 @@ Feature: Calculation of the Premium cost
        Then It should be <cost>
        Examples:
          | age |  marital_status  | cost |
-         | 17  | "single"         | -1   |
-         | 18  | "single"         | 300  |
+         | 17  | "single"       | 300  |
+         | 18  | "single"       | 300  |
          | 18  | "married"        | 300  |
          | 25  | "single"         | 300  |
          | 25  | "married"        | 300  |

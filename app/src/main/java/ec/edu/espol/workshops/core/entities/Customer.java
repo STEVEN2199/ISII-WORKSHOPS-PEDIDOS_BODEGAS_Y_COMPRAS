@@ -5,11 +5,11 @@ import ec.edu.espol.workshops.utils.InsuranceException;
 
 /**
  * <h1>Customer Class.</h1>
- * 
+ *
  * <p>
  * This class represents a customer entity that is on the project.
  * </p>
- * 
+ *
  *
  *
  * @author neoterux
@@ -41,7 +41,7 @@ public class Customer implements InsuranceApplier {
   }
 
   public int getEdad() {
-    return age;
+    return this.age;
   }
 
   public void setEdad(final int age) {
@@ -71,18 +71,19 @@ public class Customer implements InsuranceApplier {
   public void setLicenceIsValid(final boolean driverLicenceValid) {
     this.driverLicenceValid = driverLicenceValid;
   }
-  
+
   @Override
   public long calculateInsuranceValue() throws InsuranceException {
-    
-    int premiumCost = -1;
-    
-    if (sex == 'M' && !isMarried && age < 25) {
-      premiumCost = BASE_VALUE + 1500;
-    } else if (sex == 'F' || isMarried) {
-      premiumCost = BASE_VALUE - 200;
-    } else if (age >= 45 && age < 65) {
-      premiumCost = BASE_VALUE - 100;
+
+    var premiumCost = BASE_VALUE;
+    if (this.sex == 'F' || this.isMarried) {
+      premiumCost -= 200;
+    }
+    if (this.sex == 'M' && !this.isMarried && this.age < 25) {
+      premiumCost += 1500;
+    }
+    if (this.age >= 45 && this.age < 65) {
+      premiumCost -= 100;
     }
     if (isMarried && age > 30 && age < 60) {
       premiumCost -= 50;
@@ -91,7 +92,6 @@ public class Customer implements InsuranceApplier {
       premiumCost -= 50;
     }
     return premiumCost;
-    
   }
 
 }
