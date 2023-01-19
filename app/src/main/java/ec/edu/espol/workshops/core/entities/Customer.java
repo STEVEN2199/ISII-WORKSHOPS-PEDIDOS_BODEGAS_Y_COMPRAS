@@ -64,25 +64,27 @@ public class Customer implements InsuranceApplier {
     this.isMarried = isMarried;
   }
 
-  public boolean getLicenceIsValid() {
+  public boolean isLicenseValid () {
     return driverLicenceValid;
   }
 
   public void setLicenceIsValid(final boolean driverLicenceValid) {
     this.driverLicenceValid = driverLicenceValid;
   }
-  
+
   @Override
   public long calculateInsuranceValue() throws InsuranceException {
-    
-    int premiumCost = -1;
-    
+    if (age >= 80 || !isLicenseValid() || age < 0) return -1;
+  
+    int premiumCost = BASE_VALUE;
+    if (sex == 'F' || isMarried) {
+      premiumCost -= 200;
+    }
     if (sex == 'M' && !isMarried && age < 25) {
-      premiumCost = BASE_VALUE + 1500;
-    } else if (sex == 'F' || isMarried) {
-      premiumCost = BASE_VALUE - 200;
-    } else if (age >= 45 && age < 65) {
-      premiumCost = BASE_VALUE - 100;
+      premiumCost += 1500;
+    }
+    if (age >= 45 && age < 65) {
+      premiumCost -= 100;
     }
     if (isMarried && age > 30 && age < 60) {
       premiumCost -= 50;
@@ -91,7 +93,7 @@ public class Customer implements InsuranceApplier {
       premiumCost -= 50;
     }
     return premiumCost;
-    
+  
   }
 
 }
